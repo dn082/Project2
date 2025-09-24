@@ -1,7 +1,7 @@
 # Project2
 
 ## INTRODUCTION
-In this project, I chose to analyze coffee consumption data using the Global Coffee Health dataset. My goal is to understand stress levels in how effect of coffee consumsuption along with other factor, can affect it.
+In this project, I chose to analyze coffee consumption data using the Global Coffee Health dataset. My goal is to understand stress levels in how effect of coffee consumption, along with other factors, that can affect it.
 
 ## THE DATASET
 The data I chose to use is a file found from Kaggle called https://www.kaggle.com/datasets/uom190346a/global-coffee-health-dataset.
