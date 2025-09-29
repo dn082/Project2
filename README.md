@@ -15,7 +15,7 @@ The data I chose to use is a file found from Kaggle called https://www.kaggle.co
 
 
 ## VISUALIZATION/DATA UNDERSTANDING
-To explore this data, I plan to use Decision Trees.
+To explore this data, I plan to use Random Forest.
 
 
 
