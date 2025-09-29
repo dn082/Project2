@@ -17,5 +17,21 @@ The data I chose to use is a file found from Kaggle called https://www.kaggle.co
 ## VISUALIZATION/DATA UNDERSTANDING
 To explore this data, I plan to use Random Forest.
 
+## MODELING
+
+
+## STORY
+
+
+## IMPACT
+
+## REFERENCES
+
+## TO VIEW VISUALIZATIONS
+
+## TO RUN THIS PROJECT
+
+
+
 
 
