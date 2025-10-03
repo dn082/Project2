@@ -39,7 +39,7 @@ To explore this data, I plan to use a Random Forest Model. I have used Countplot
 - This project was used using Jupyter Notebooks and was coded in Python with libraries such as Pandas, Matplotlib, Seaborn, and Scikit.
 - The dataset used was [Global Coffee Health Dataset](https://www.kaggle.com/datasets/uom190346a/global-coffee-health-dataset) and the overall structure of this project should be
   *  `PROJECT2.ipynb`: My main code that has the data preprocessing, analysis, and visualization information.
- `https://www.kaggle.com/datasets/uom190346a/global-coffee-health-dataset.csv`: The raw dataset file.
+ `synthetic_coffee_health_10000.csv`: The raw dataset file.
 
 ## TO VIEW VISUALIZATIONS 
 - Click on the file `PROJECT2.ipynb` and Preview and scroll to see visualizations.
