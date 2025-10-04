@@ -36,13 +36,12 @@ To explore the data, I plan to use Countplots, Bar Plot, Scatter Plots, and Heat
 As I explored this dataset, the main question that I had, as it had a column specifically for Stress_Level, was how does coffee consumption, in general, affect a person's stress level, and how does its influence compare to other overall lifestyle habits?. From my analysis of the Global Coffee Health dataset it revealed through visualization that stress levels aren't fully dependent on the consumption of coffee, but it is a consideration. With all the features from the barplot, the highest one was rest/sleep, which was the most influential. The Random Forest Classifier provided a clear answer by ranking the features by their predictive power any form related to sleep was the highest, like Sleep_Hours and Sleep_Quality. There were many different ones after the one hot encoding, making the columns go from 16 to 38. The second most important factors were Caffeine_mg and Coffee_Intake. This indicates that the consumption habit has some level of stronger predictive signal for stress than the other health factors. The third most important factors were related to physical health, specifically BMI and Physical Activity Hours. The data on some level can show a skew because of the idea that, due to lack of sleep, there can be a larger coffee intake for getting daily energy. This can reframe the problem of stress levels, as what we consume can come from just a general imbalanced lifestyle that neglects sleep and activity. 
 
 ## IMPACT
-
+I think the possible general impact can be a level of insight, as the predictive model and feature importance analysis offered important info on factors and can change the idea that the concept of having high stress levels due to consumption of coffee or anything in general can be unlikely and reframe it to where Sleep Hours could be in correlation of possibility of bad physical activity and caffeine consumption as habit.  The lack of perspective can skew it, though, as  unconsidered parts, such as not having enough time, can lead the fewer sleep hours, which can come from responsibilities like occupation, and energy levels can be affected due to age because of the decrease. There can be many other correlations that can just overall cause the lack of sleep, leading to high stress levels that can not be seen through just this data.
 
 ## REFERENCES
 - This project was used using Jupyter Notebooks and was coded in Python with libraries such as Pandas, Matplotlib, Seaborn, and Scikit.
 - The dataset used was [Global Coffee Health Dataset](https://www.kaggle.com/datasets/uom190346a/global-coffee-health-dataset) and the overall structure of this project should be
-  *  `PROJECT2.ipynb`: My main code that has the data preprocessing, analysis, and visualization information.
- `synthetic_coffee_health_10000.csv`: The raw dataset file.
+  *  `PROJECT2.ipynb`: My main code that has the data preprocessing, analysis, and visualization information. `synthetic_coffee_health_10000.csv`: The raw dataset file.
 
 ## TO VIEW VISUALIZATIONS 
 - Click on the file `PROJECT2.ipynb` and Preview and scroll to see visualizations.
