@@ -33,8 +33,7 @@ To explore the data, I plan to use Countplots, Bar Plot, Scatter Plots, and Heat
 
 
 ## STORY
-
-
+As I explored this dataset, the main question that I had, as it had a column specifically for Stress_Level, was how does coffee consumption, in general, affect a person's stress level, and how does its influence compare to other overall lifestyle habits?. From my analysis of the Global Coffee Health dataset it revealed through visualization that stress levels aren't fully dependent on the consumption of coffee, but it is a consideration. With all the features from the barplot, the highest one was rest/sleep, which was the most influential. The Random Forest Classifier provided a clear answer by ranking the features by their predictive power any form related to sleep was the highest, like Sleep_Hours and Sleep_Quality. There were many different ones after the one hot encoding, making the columns go from 16 to 38. The second most important factors were Caffeine_mg and Coffee_Intake. This indicates that the consumption habit has some level of stronger predictive signal for stress than the other health factors. The third most important factors were related to physical health, specifically BMI and Physical Activity Hours. The data on some level can show a skew because of the idea that, due to lack of sleep, there can be a larger coffee intake for getting daily energy. This can reframe the problem of stress levels, as what we consume can come from just a general imbalanced lifestyle that neglects sleep and activity. 
 
 ## IMPACT
 
