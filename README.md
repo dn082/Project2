@@ -20,8 +20,8 @@ Some steps I took for preprocessing my data were to:
 - Data Split -  This allowed me to train the Random Forest model with a training set that was 80% and a testing set that was also 20%. This allows it to deal with unseen data, to get a measure of how well the model truly understood the relationships between lifestyle habits and stress models
 
 ## VISUALIZATION/DATA UNDERSTANDING
-To explore the data, I plan to use Countplots, Bar Plot, Scatter Plots, and HeatMap
-- For Countplot,	I took the Stress_Level, which is my target, and wanted to see the Low, Medium, and High stress compared to something else. For this, I chose occupation as example.
+To explore the data, I plan to use Countplots, Bar Plot, Scatter Plots, and Heat Map
+- For Countplot,	I took the Stress_Level, which is my target, and wanted to see the Low, Medium, and High stress compared to something else. For this, I chose occupation as an example.
 - For Bar Plot,	this is the most important as it answers the question for important features. My barplot is called Top 15 Features, which provides a frequency distribution of features like Sleep_Hours or Caffeine.mg to understand the most common habits.
 - For Scatter Plot,	this allows a way to show the different habits and how two factors simultaneously interact across the three stress categories. It also shows clustering for which is more common.
 - For HeatMap	is just a graph version of the Confusion Matrix, as it shows the model evaluation and accuracy of the Random Forest model for each stress category after training.
@@ -30,7 +30,7 @@ To explore the data, I plan to use Countplots, Bar Plot, Scatter Plots, and Heat
 
 
 ## EVALUATION
-
+For this project, I tested 20% of the data, which was 2000 rows of information. The Random Forest Model performed well, as I used metrics shown in the classification report, which were for this project accuracy is 1.00, meaning 100%, and precision, recall, and F1-score were also 1.00 across Low, Medium, and High stress levels, and the Confusion Matrix is everything classified right as all stress levels were predicted correctly. Showing that the model was able to perfectly classify stress levels based on the features. I used these metrics because it's a strong predictors of whether the model is doing well, as accuracy tells the correctness of predictions. Precision shows what is actually correct. The recall	shows stress levels were correctly identified, and the confusion matrix shows how it was classified correctly.
 
 ## STORY
 As I explored this dataset, the main question that I had, as it had a column specifically for Stress_Level, was how does coffee consumption, in general, affect a person's stress level, and how does its influence compare to other overall lifestyle habits?. From my analysis of the Global Coffee Health dataset it revealed through visualization that stress levels aren't fully dependent on the consumption of coffee, but it is a consideration. With all the features from the barplot, the highest one was rest/sleep, which was the most influential. The Random Forest Classifier provided a clear answer by ranking the features by their predictive power any form related to sleep was the highest, like Sleep_Hours and Sleep_Quality. There were many different ones after the one hot encoding, making the columns go from 16 to 38. The second most important factors were Caffeine_mg and Coffee_Intake. This indicates that the consumption habit has some level of stronger predictive signal for stress than the other health factors. The third most important factors were related to physical health, specifically BMI and Physical Activity Hours. The data on some level can show a skew because of the idea that, due to lack of sleep, there can be a larger coffee intake for getting daily energy. This can reframe the problem of stress levels, as what we consume can come from just a general imbalanced lifestyle that neglects sleep and activity. 
