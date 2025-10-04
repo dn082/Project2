@@ -27,7 +27,8 @@ To explore the data, I plan to use Countplots, Bar Plot, Scatter Plots, and Heat
 - For HeatMap	is just a graph version of the Confusion Matrix, as it shows the model evaluation and accuracy of the Random Forest model for each stress category after training.
 
 ## MODELING
-
+The model I use is a Random Forest Model. I used this because it is a strong use for classification using data that can handle different things. This model essentially builds multiple decision trees and combines their outputs to improve accuracy and reduce overfitting. Each tree is trained on a random subset of the data and features, and the final prediction is made by majority vote.
+This was good for this project specifically, as much data was numerical and category-based, and another was how it could give the most important part I was asking, which was my question, that was which lifestyle factors most influence stress level?. This by itself allowed Random Forest a way to measure how important each feature is in predicting the target variable. 
 
 ## EVALUATION
 For this project, I tested 20% of the data, which was 2000 rows of information. The Random Forest Model performed well, as I used metrics shown in the classification report, which were for this project accuracy is 1.00, meaning 100%, and precision, recall, and F1-score were also 1.00 across Low, Medium, and High stress levels, and the Confusion Matrix is everything classified right as all stress levels were predicted correctly. Showing that the model was able to perfectly classify stress levels based on the features. I used these metrics because it's a strong predictors of whether the model is doing well, as accuracy tells the correctness of predictions. Precision shows what is actually correct. The recall	shows stress levels were correctly identified, and the confusion matrix shows how it was classified correctly.
