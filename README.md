@@ -10,17 +10,21 @@ Questions
 ## THE DATASET
 The data I chose to use is a file found from Kaggle called https://www.kaggle.com/datasets/uom190346a/global-coffee-health-dataset.
 My target variable is Stress_Level, and my main predictors would be Coffee_Intake, Caffeine_mg, Sleep_Hours, Sleep_Quality, Age, and BMI.
+There are 16 columns and 10000 rows.
 
 ## PREPROCESSING
 Some steps I took for preprocessing my data were to:
 - Dealing with Non-Existent Data - Doing this step allowed me to use data that was relevant and existed to answer my questions and focus on columns that will contribute to my predictions. For this case, I removed a column as there was no information in it.
 - Used Label Encoding - This step allows to convert labels I had in text form, that were Low, Medium, High, into a numerical format like 0, 1, 2 so the Random Forest Classifier could be able to process them.
 - Used One Hot Encoding - Doing this step allowed all the columns to turn text categories into numbers that the Random Forest model can use, which is usually binary.
-- Data Split: -  This allowed me to train the Random Forest model with a training set that was 80% and a testing set that was also 20%. This allows it to deal with unseen data, to get a measure of how well the model truly understood the relationships between lifestyle habits and stress models
+- Data Split -  This allowed me to train the Random Forest model with a training set that was 80% and a testing set that was also 20%. This allows it to deal with unseen data, to get a measure of how well the model truly understood the relationships between lifestyle habits and stress models
 
 ## VISUALIZATION/DATA UNDERSTANDING
-To explore this data, I plan to use a Random Forest Model. I have used Countplot, Bar Plots, ScatterPlot, and HeatMap
-
+To explore the data, I plan to use Countplots, Bar Plot, Scatter Plots, and HeatMap
+- For Countplot,	I took the Stress_Level, which is my target, and wanted to see the Low, Medium, and High stress compared to something else. For this, I chose occupation as example.
+- For Bar Plot,	this is the most important as it answers the question for important features. My barplot is called Top 15 Features, which provides a frequency distribution of features like Sleep_Hours or Caffeine.mg to understand the most common habits.
+- For Scatter Plot,	this allows a way to show the different habits and how two factors simultaneously interact across the three stress categories. It also shows clustering for which is more common.
+- For HeatMap	is just a graph version of the Confusion Matrix, as it shows the model evaluation and accuracy of the Random Forest model for each stress category after training.
 
 ## MODELING
 
